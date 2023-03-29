@@ -12,7 +12,12 @@
 ===========================*/
 
 /* Custom hero font */
-
+@font-face {
+  font-family: 'Arista';
+  src: url('../fonts/Arista-Pro-Alternate-Fat-trial.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -538,7 +543,7 @@ p {
 .ud-hero-content .ud-hero-title {
   color: var(--white);
   /* Fallback, sans-serif; */
-  font-family: 'Fredoka';
+  font-family: 'Arista';
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
@@ -575,7 +580,7 @@ p {
 .ud-nav-title {
   color: var(--white);
   /* Fallback, sans-serif; */
-  font-family: 'Fredoka';
+  font-family: 'Arista';
   font-weight: 700;
   font-size: 30px;
   margin: auto;
