@@ -612,7 +612,7 @@ p {
   line-height: 35px;
   text-align: center;
   color: var(--white);
-  opacity: 0.8;
+  text-shadow:black 0.05em 0.05em;
   max-width: 600px;
   margin: auto;
   margin-bottom: 30px;
@@ -1355,11 +1355,12 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0px 10px;
-  color: #cdced6;
+  color: var(--body-color);
 }
 
 .ud-single-team .ud-team-socials a:hover {
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 /* ===== Contact CSS ===== */
